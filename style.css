@@ -1,8 +1,11 @@
 h1{
     padding-bottom: 20px;
-    background-color: white;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    
 }
 
+#para {background-color: white;}
 .title-style {
     color: black;
 }
@@ -11,7 +14,7 @@ h1{
     padding-left: 20px;
 
 }
-.testrelative {
+.relative {
     position: relative;
     left: 30px;
     border: 3px solid rgba(255, 255, 255, 0);
@@ -24,26 +27,60 @@ h4 {text-align: center;
 }
 
 .nav {background-color: cornflowerblue;
-padding-left: 4%;
-padding-right: 4%;
+  padding-left: 4%;
+  padding-right: 4%;
+
 }
+
+.box {height: 400px;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  padding: 10px 30px 10px;
+    
+  background-color: white;}
+
 
 .box-set {
-    position: static;
-    height: 400px;
-    background: darkgray;
-    padding-top: 0%;
-    margin-top: 10%;
-  }
-
-
-  testh1{
-    margin-top: 0;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: white;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  padding: 10px 30px 10px;
+    
+  background-color: white;
 }
 
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: cornflowerblue;
+  color: white;
+}
+
+body{background-color: cornflowerblue;}
+
+#back{background-color: transparent;}
+
+.box2 {height: 100px;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  padding: 10px 30px 10px;
+    
+  background-color: white;}}
 
 
 
